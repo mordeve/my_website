@@ -1,0 +1,74 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.topLeft,.topRight {
+    flex: 16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+.topCenter {
+    flex: 20;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topListItem:hover{
+    color: gray;
+}
+
+.hero{
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+
+.heroSecond{
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(120, 120, 120) !important;
+    margin-left: 5px;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+  
+
+.socIcon {
+    font-size: 30px;
+    margin-right: 24px;
+    color: #444;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.socIcon:hover{
+    color: gray;
+}
