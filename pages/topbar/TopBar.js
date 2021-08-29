@@ -2,19 +2,29 @@ import Link from "next/link"
 
 export default function TopBar() {
     return (
-
+      
       <div className="top">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <div className="topLeft">
-          <div className="hero">Batuhan</div>
-          <div className="heroSecond">Karaoglu</div>
+          <div className="hero">
+            <Link href="/">Batuhan</Link>
+          </div>
+          <div className="heroSecond">
+            <Link href="/">Karaoglu</Link>
+          </div>
         </div>
 
         <div className="topCenter">
           <ul className="topList">
-            <li className="topListItem">HOME</li>
-            <li className="topListItem">ABOUT</li>
-            <li className="topListItem">CONTACT</li>
-            <li className="topListItem">WRITE</li>
+            <li className="topListItem">
+              <Link href="/"><a>HOME</a></Link>
+            </li>
+            <li className="topListItem">
+              <Link href="/about-en"><a>ABOUT</a></Link>
+            </li>
+            <li className="topListItem">
+              <Link href="/contact-en"><a>CONTACT</a></Link>  
+            </li>
           </ul>
         </div>
 
@@ -28,9 +38,10 @@ export default function TopBar() {
           <Link href="https://www.instagram.com/batuhankaraoglu/">
               <i className="socIcon fab fa-instagram-square"></i>
           </Link>
+          <Link href="https://github.com/mordeve">
+              <i className="socIcon fab fa-github-square"></i>
+          </Link>
         </div>
-
-
       </div>
 
     )

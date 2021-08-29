@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import './topbar/TopBar.css'
 import './header/Header.css'
 import './homepage/Homepage.css'
+import './posts/slug.css'
 import TopBar from "./topbar/TopBar"
 import Homepage from "./homepage/Homepage"
 

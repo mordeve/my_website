@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 10px;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.block {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.block-inside {
+  padding: 15px 30px;
+}
+
+.post-body {
+  font-family: 'Poppins', serif;
+}
+
+.post-body ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.post-body pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+.post-date {
+  background: #f8f6f6;
+  margin-bottom: 20px;
+  padding: 3px 10px;
+  text-align: right;
+}
+
+.post-title {
+  font-size: 50px;
+  font-family: 'Signika', sans-serif;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.lang {
+  text-align: right;
+  margin: 5px 20px 0 0;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.lang_tr {
+  margin-right: 5px;
+}
+
+.lang_en {
+  margin-left: 5px;
+}
+
+
+.lang_tr:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.lang_en:hover {
+  color: black;
+  font-weight: bold;
+}

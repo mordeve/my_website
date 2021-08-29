@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className="header"> 
             <div className="headerTitles">
-                <span className="headerTitleLg">DeepBlogs</span>
+                <span className="headerTitleLg">DeepBlog</span>
                 <span className="headerTitleSm">
                     <li className="headerList">Software</li>
                     <li className="headerList">Machine Learning</li>

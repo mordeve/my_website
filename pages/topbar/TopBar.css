@@ -15,8 +15,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: color 0.25s ease, border-color 0.25s ease;
 }
 
+.topLeft:hover{
+    transform: scale(0.996);
+}
   
 .topCenter {
     flex: 20;
@@ -32,43 +36,49 @@
 
 .topListItem {
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 1.3vw;
     font-weight: 300;
     cursor: pointer;
+    transition: color 0.25s ease, border-color 0.25s ease;
 }
 
 .topListItem:hover{
     color: gray;
+    transform: scale(0.99);
 }
 
 .hero{
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 2.4vw;
     font-weight: 600;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
+
 .heroSecond{
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 2.4vw;
     font-weight: 600;
-    color: rgb(120, 120, 120) !important;
+    color: rgb(120, 120, 120) ;
     margin-left: 5px;
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
   
 
 .socIcon {
-    font-size: 30px;
+    font-size: 2.0vw;
     margin-right: 24px;
     color: #444;
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .socIcon:hover{
     color: gray;
+    transform: scale(0.98)
+
 }
