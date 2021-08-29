@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from "next/link"
-import profilePic from '/images/me_2.jpeg'
 import NavLink from './../components/NavLink'
 import styled from 'styled-components'
 
@@ -34,10 +33,9 @@ export default function Contact() {
             <div className={styles.contact_container}>
                 <h2 style={{'font-size': '3vw', 'margin-top': '0'}}>İletişim</h2>
             <div className={styles.about_section}>
-                <Image
-                    st
+                <img
                     className={styles.rounded_image}
-                    src={profilePic} alt='Picture of the author.'
+                    src='/images/me_2.jpeg' alt='Picture of the author.'
                     width={260}
                     height={174}
                 />
