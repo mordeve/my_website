@@ -260,6 +260,8 @@
 
 .rounded_image {
   border-radius: 30% !important;
+  width: 60%;
+  height: 45%;  
 }
 
 .cv_download{

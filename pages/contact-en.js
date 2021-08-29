@@ -36,8 +36,6 @@ export default function Contact() {
                 <img
                     className={styles.rounded_image}
                     src='/images/me_2.jpeg' alt='Picture of the author.'
-                    width={260}
-                    height={174}
                 />
                 <p className={styles.name}>Batuhan Karaoğlu</p>
                 <p>I’m an electronic engineer with experience in developing signal processing, 
