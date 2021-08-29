@@ -35,7 +35,7 @@ export default function Contact() {
             <div className={styles.about_section}>
                 <img
                     className={styles.rounded_image}
-                    src='/images/me_2.jpeg' alt='Picture of the author.'
+                    src='/images/GANs/n1.png' alt='Picture of the author.'
                 />
                 <p className={styles.name}>Batuhan Karaoğlu</p>
                 <p>I’m an electronic engineer with experience in developing signal processing, 
