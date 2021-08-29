@@ -35,9 +35,7 @@ export default function Contact() {
             <div className={styles.about_section}>
                 <img
                     className={styles.rounded_image}
-                    src='/images/me_2.jpeg' alt='Picture of the author.'
-                    width={260}
-                    height={174}
+                    src='/images/me_2.png' alt='Picture of the author.'
                 />
                 <p className={styles.name}>Batuhan Karaoğlu</p>
                 <p>Sinyal işleme, görüntü işleme ve makine öğrenmesi alanlarına ilgi duyan
