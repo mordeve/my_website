@@ -20,8 +20,8 @@ export default function Home({ posts }) {
       </Head>
     
     {posts.map((post, index) => (
-      <div className={styles.blog_out}>
-          <Post key={index} post={post} />
+      <div key={index} className={styles.blog_out}>
+          <Post post={post} />
       </div>
     ))}
     </div>
