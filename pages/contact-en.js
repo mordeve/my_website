@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from "next/link"
-import profilePic from '../src/me_2.jpeg'
+import profilePic from '/images/me_2.jpeg'
 import NavLink from './../components/NavLink'
 import styled from 'styled-components'
 
