@@ -61,7 +61,7 @@ export default function Contact() {
                         </a> */}
                     </div>
                     <div className={styles.cv_download}>
-                        <a href='/files/cv.pdf' download>CV'ye ulaşmak için tıklayınız</a>
+                        <a href='/files/cv.pdf' download>CV ye ulaşmak için tıklayınız</a>
                     </div>
                 </div>
             </div>

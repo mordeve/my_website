@@ -46,8 +46,8 @@ export default function Contact() {
                     and various projects with Arduino.
                     </p>
                     <p>
-                    C/C++, Matlab and Python are programming languages that I'm good at.
-                    Also I'm familiar with HTML, CSS and a bit of Flutter.
+                    C/C++, Matlab and Python are programming languages that I am good at.
+                    Also I am familiar with HTML, CSS and a bit of Flutter.
                     </p>
                     <p>
                     I love the internet, technology, and building beautiful things.
